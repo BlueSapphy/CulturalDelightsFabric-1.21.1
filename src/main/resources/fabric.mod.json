@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "culturaldelights",
+	"version": "0.17.6",
+	"name": "Cultural Delights",
+	"description": "A somewhat faithful fabric port of Cultural Delight!",
+	"authors": [
+		"Baisylia, NCP_Bails, BlueSapphy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/culturaldelights/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.baisylia.culturaldelights.CulturalDelights"
+		],
+		"client": [
+			"com.baisylia.culturaldelights.CulturalDelightsClient"
+		],
+		"fabric-datagen": [
+			"com.baisylia.culturaldelights.CulturalDelightsDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"farmersdelight": "*"
+	},
+	"suggests": {
+		"brewinchewin": "*"
+	}
+}

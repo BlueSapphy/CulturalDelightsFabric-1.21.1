@@ -1,0 +1,15 @@
+// 1.21.1	2025-06-09T22:01:08.5434262	Cultural Delights/Tags for minecraft:block
+539d26b0eadeda1bcf08585f2abb7059fec94204 data\sereneseasons\tags\block\summer_crops.json
+e7f6f5e959ee587e84995066cb16b18004dc87f2 data\c\tags\block\storage_blocks\avocado.json
+26a169fc394d06958adfed265d8bdeb41ba36382 data\c\tags\block\storage_blocks\corn.json
+5da67a331eeccf40604e3238df83bdfe519c6398 data\c\tags\block\storage_block.json
+344df66fcd6e8b93359a650ebd79650d22cfb26a data\farmersdelight\tags\block\wild_crops.json
+523be3dab5c4472fa684efe6ed4f572144018765 data\sereneseasons\tags\block\autumn_crops.json
+25d896de91531e9dda0e3b4d9dcfbeb11d930be6 data\c\tags\block\storage_blocks\pickle.json
+8ecf190b8c6930e874728a357c64010d49a2f38d data\minecraft\tags\block\small_flowers.json
+41facf077a0a5957d9f8d6750281752c0d447227 data\sereneseasons\tags\block\spring_crops.json
+145595620ef03476c1e88b509ce918ef6db5c1f8 data\c\tags\block\storage_blocks\eggplant.json
+42f54c96a70a7d4f0d8305bfff7160b86a67cb1a data\minecraft\tags\block\crops.json
+42f54c96a70a7d4f0d8305bfff7160b86a67cb1a data\minecraft\tags\block\maintains_farmland.json
+11e4f3bb37884b3a79c41110bd698ae62a76b0ad data\c\tags\block\storage_blocks\cucumbers.json
+145595620ef03476c1e88b509ce918ef6db5c1f8 data\c\tags\block\storage_blocks\white_eggplant.json

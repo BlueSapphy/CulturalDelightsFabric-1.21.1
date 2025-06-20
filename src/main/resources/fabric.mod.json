@@ -1,17 +1,17 @@
 {
 	"schemaVersion": 1,
 	"id": "culturaldelights",
-	"version": "0.17.6",
+	"version": "0.17.7",
 	"name": "Cultural Delights",
 	"description": "A somewhat faithful fabric port of Cultural Delight!",
 	"authors": [
-		"Baisylia, NCP_Bails, BlueSapphy"
+		"Baisylia, Raspmary, Bagele, Nive, and BlueSapphy"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/BlueSapphy/CulturalDelightsFabric-1.21.1"
 	},
-	"license": "CC0-1.0",
+	"license": "ARR",
 	"icon": "assets/culturaldelights/icon.png",
 	"environment": "*",
 	"entrypoints": {

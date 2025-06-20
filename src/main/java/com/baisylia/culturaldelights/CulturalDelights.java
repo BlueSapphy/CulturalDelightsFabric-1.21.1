@@ -5,6 +5,7 @@ import com.baisylia.culturaldelights.item.ModItems;
 //import com.baisylia.culturaldelights.refabricated.CDCompostableHelper;
 import com.baisylia.culturaldelights.refabricated.CDLootTableHelper;
 //import com.baisylia.culturaldelights.refabricated.CDVillagerTrade;
+import com.baisylia.culturaldelights.refabricated.CDVillagerTrade;
 import com.baisylia.culturaldelights.tab.ModCreativeModeTabs;
 import com.baisylia.culturaldelights.world.ModPlacedFeatures;
 import net.fabricmc.api.ModInitializer;
@@ -31,6 +32,8 @@ public class CulturalDelights implements ModInitializer {
 		ModCreativeModeTabs.register();
 		ModPlacedFeatures.register();
 		CDLootTableHelper.init();
+		Config.register();
+		CDVillagerTrade.init();
 
 		//fuel fabric is weird
 		FuelRegistry.INSTANCE.add(ModBlocks.AVOCADO_SAPLING.get(), 50);

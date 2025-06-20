@@ -2,7 +2,10 @@ package com.baisylia.culturaldelights.block;
 
 import com.baisylia.culturaldelights.CulturalDelights;
 import com.baisylia.culturaldelights.block.custom.*;
+import com.baisylia.culturaldelights.item.ModItems;
 import com.baisylia.culturaldelights.world.tree.ModTreeGrowers;
+import it.unimi.dsi.fastutil.objects.Object2ObjectOpenHashMap;
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.client.resources.model.Material;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -79,14 +82,17 @@ public class ModBlocks {
     public static final Supplier<Block> CORN_COB_CRATE = regBlock("corn_cob_crate",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).strength(2.0F, 3.0F).sound(SoundType.WOOD)));
 
-    @NotNull
+
     public static final Supplier<Block> EXOTIC_ROLL_MEDLEY = regBlock("exotic_roll_medley",
             () -> new ExoticRollMedleyBlock(Block.Properties.ofFullCopy(Blocks.CAKE)));
 
+    public static final Supplier<Block> EGGPLANT_PARMESAN_BLOCK  = regBlock("eggplant_parmesan_block",
+            () -> new EggplantFeastBlock(Block.Properties.ofFullCopy(Blocks.CAKE), ()-> ModItems.EGGPLANT_PARMESAN.get(), true));
 
 
-
-    public static void register() {}
+    public static void register() {
+        StrippableBlockRegistry.register(ModBlocks.AVOCADO_LOG.get(), Blocks.STRIPPED_JUNGLE_LOG);
+    }
 
 
 }

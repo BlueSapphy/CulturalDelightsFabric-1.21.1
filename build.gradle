@@ -26,7 +26,7 @@ repositories {
 
 	maven { url "https://maven.parchmentmc.org" } //Parchment
 
-	maven { url = "https://maven.shedaniel.me/" }
+	maven { url = "https://maven.shedaniel.me/" } //REI
 }
 
 fabricApi {

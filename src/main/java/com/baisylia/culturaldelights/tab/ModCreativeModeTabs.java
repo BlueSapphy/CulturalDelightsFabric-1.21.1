@@ -52,7 +52,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.HEARTY_SALAD.get());
                         output.accept(ModItems.BEEF_BURRITO.get());
                         output.accept(ModItems.MUTTON_SANDWICH.get());
-                        //output.accept(ModItems.EGGPLANT_PARMESAN.get());
+                        output.accept(ModItems.EGGPLANT_PARMESAN.get());
                         output.accept(ModItems.POACHED_EGGPLANTS.get());
                         output.accept(ModItems.EGGPLANT_BURGER.get());
                         output.accept(ModItems.AVOCADO_TOAST.get());
@@ -86,6 +86,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.EGGPLANT_CRATE.get());
                         output.accept(ModItems.WHITE_EGGPLANT_CRATE.get());
                         output.accept(ModItems.EXOTIC_ROLL_MEDLEY.get());
+                        output.accept(ModItems.EGGPLANT_PARMESAN_BLOCK.get());
 
                     }).build());
 

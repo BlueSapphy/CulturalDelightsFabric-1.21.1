@@ -70,6 +70,9 @@ public class ModItems {
     public static final Supplier<Item> EXOTIC_ROLL_MEDLEY = register("exotic_roll_medley", () ->
             new BlockItem(ModBlocks.EXOTIC_ROLL_MEDLEY.get(), basicItem().stacksTo(1)));
 
+    public static final Supplier<Item> EGGPLANT_PARMESAN_BLOCK = register("eggplant_parmesan_block", () ->
+            new BlockItem(ModBlocks.EGGPLANT_PARMESAN_BLOCK.get(), basicItem().stacksTo(1)));
+
 
     public static final Supplier<Item> CUCUMBER_SEEDS = register("cucumber_seeds",
             () -> new ItemNameBlockItem(ModBlocks.CUCUMBERS.get(),
@@ -175,8 +178,8 @@ public class ModItems {
     public static final Supplier<Item> MUTTON_SANDWICH = register("mutton_sandwich",
             () -> new Item(new Item.Properties().food(ModFoods.MUTTON_SANDWICH)));
 
-    //public static final Supplier<Item> EGGPLANT_PARMESAN = register("eggplant_parmesan",
-    //() -> new Item(new Item.Properties().stacksTo(16).food(ModFoods.EGGPLANT_PARMESAN)));
+    public static final Supplier<Item> EGGPLANT_PARMESAN = register("eggplant_parmesan",
+    () -> new Item(new Item.Properties().stacksTo(16).food(ModFoods.EGGPLANT_PARMESAN)));
 
     public static final Supplier<Item> POACHED_EGGPLANTS = register("poached_eggplants",
             () -> new Item(new Item.Properties().stacksTo(16).food(ModFoods.POACHED_EGGPLANTS)));

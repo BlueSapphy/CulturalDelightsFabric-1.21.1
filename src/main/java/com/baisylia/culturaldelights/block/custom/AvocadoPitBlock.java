@@ -22,7 +22,12 @@ public class AvocadoPitBlock extends SaplingBlock {
         super(treeGrower, properties);
     }
 
-
+    @Override
+    public void randomTick(BlockState state, ServerLevel world, BlockPos pos, RandomSource random) {
+        if (random.nextInt(5) == 0) {
+            world.setBlock(pos, ModBlocks.AVOCADO_SAPLING.get().defaultBlockState(), 3);
+        }
+    }
 
     @Override
     public VoxelShape getShape(BlockState state, BlockGetter worldIn, BlockPos pos, CollisionContext context) {
@@ -30,5 +35,14 @@ public class AvocadoPitBlock extends SaplingBlock {
 
     }
 
+    @Override
+    public boolean isBonemealSuccess(Level level, RandomSource random, BlockPos pos, BlockState state) {
+        return true;
+    }
+
+    @Override
+    public void performBonemeal(ServerLevel level, RandomSource random, BlockPos pos, BlockState state) {
+        level.setBlock(pos, ModBlocks.AVOCADO_SAPLING.get().defaultBlockState(), 3);
+    }
 
 }
